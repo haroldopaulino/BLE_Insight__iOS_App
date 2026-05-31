@@ -29,8 +29,6 @@ This project demonstrates:
 - Clean App / Domain / Data / Presentation separation
 - Mobile tooling for embedded and IoT debugging
 
-For employers, this repository shows the ability to build mobile software that interacts with real wireless hardware, which is valuable for iOS, BLE, IoT, embedded, firmware, and connected-device engineering roles.
-
 ---
 
 ## Project Overview
