@@ -1,192 +1,50 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {};
-	objectVersion = 60;
-	objects = {
-/* Begin PBXBuildFile section */
-		3CBA8D20EB37C2CC63102009 /* BLEInsightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BD93DE7AD2122B0D5121D /* BLEInsightApp.swift */; };
-		1F32E8704E0FA2ECE0E34FCB /* BleDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5313514CD7BC034E6EF543B3 /* BleDevice.swift */; };
-		A29A97DE9300090AA71DEBD6 /* BluetoothPowerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90873D1256C4666559F0D7FA /* BluetoothPowerState.swift */; };
-		15FDD150E89D2C2CF155F984 /* BleScanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12F53533353D3222554B2C /* BleScanning.swift */; };
-		554696E473F2A0FA014BAA54 /* CoreBluetoothScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9189EDCF16BC7174F3FB5B8 /* CoreBluetoothScanner.swift */; };
-		28B0E537618792FDB79AE7CF /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523AF205E977F006AD7ABA1 /* ScannerViewModel.swift */; };
-		68AA0990BE81B332101EF424 /* ScannerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EAE1EC88D4C07141B29FA8 /* ScannerScreen.swift */; };
-		F918B4F51A01BB41184CCD01 /* DeviceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FEDD03CE3D51B084283F0 /* DeviceCard.swift */; };
-		200677794AA9BFD024E885CF /* BLEInsightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF0E529E6F7D265E67AE06 /* BLEInsightTheme.swift */; };
-		48EC75934F4432F3E9092CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4B6DE2FE6A39A2C6860765 /* Assets.xcassets */; };
-		E95B6FE5B7CC2B4572EB18E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077F1BEC5DB8D82E17AF59A9 /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
-/* Begin PBXFileReference section */
-		338BD93DE7AD2122B0D5121D /* BLEInsightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BLEInsightApp.swift"; sourceTree = "<group>"; };
-		5313514CD7BC034E6EF543B3 /* BleDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BleDevice.swift"; sourceTree = "<group>"; };
-		90873D1256C4666559F0D7FA /* BluetoothPowerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BluetoothPowerState.swift"; sourceTree = "<group>"; };
-		2C12F53533353D3222554B2C /* BleScanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BleScanning.swift"; sourceTree = "<group>"; };
-		A9189EDCF16BC7174F3FB5B8 /* CoreBluetoothScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreBluetoothScanner.swift"; sourceTree = "<group>"; };
-		5523AF205E977F006AD7ABA1 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScannerViewModel.swift"; sourceTree = "<group>"; };
-		A1EAE1EC88D4C07141B29FA8 /* ScannerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScannerScreen.swift"; sourceTree = "<group>"; };
-		9B2FEDD03CE3D51B084283F0 /* DeviceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceCard.swift"; sourceTree = "<group>"; };
-		BFDF0E529E6F7D265E67AE06 /* BLEInsightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BLEInsightTheme.swift"; sourceTree = "<group>"; };
-		BEBC7F9083267C02D0FC7573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
-		FD4B6DE2FE6A39A2C6860765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
-		077F1BEC5DB8D82E17AF59A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8910D9CBF108253CC9130BD3 /* BLEInsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEInsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-/* Begin PBXFrameworksBuildPhase section */
-		2A8E9D46AAC34ED7792FD948 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
-/* End PBXFrameworksBuildPhase section */
-/* Begin PBXGroup section */
-		A18C73A0B73D39BB851DDBB8 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				338BD93DE7AD2122B0D5121D,
-			);
-			path = "App";
-			sourceTree = "<group>";
-		};
-		85CDA3D934DD08ED2C555124 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				5313514CD7BC034E6EF543B3,
-				90873D1256C4666559F0D7FA,
-			);
-			path = "Domain";
-			sourceTree = "<group>";
-		};
-		FAE7ECF60759FE2605B1A602 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				2C12F53533353D3222554B2C,
-				A9189EDCF16BC7174F3FB5B8,
-			);
-			path = "Data";
-			sourceTree = "<group>";
-		};
-		884D1AE388190AA7DDA0CFF4 /* Scanner */ = {
-			isa = PBXGroup;
-			children = (
-				5523AF205E977F006AD7ABA1,
-				A1EAE1EC88D4C07141B29FA8,
-				9B2FEDD03CE3D51B084283F0,
-			);
-			path = "Scanner";
-			sourceTree = "<group>";
-		};
-		BE3661C7EC2216F883729E98 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				BFDF0E529E6F7D265E67AE06,
-			);
-			path = "Theme";
-			sourceTree = "<group>";
-		};
-		3F20397C378B1A01D816C90F /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				884D1AE388190AA7DDA0CFF4,
-				BE3661C7EC2216F883729E98,
-			);
-			path = "Presentation";
-			sourceTree = "<group>";
-		};
-		27B7A2D082700CA81F51693B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				077F1BEC5DB8D82E17AF59A9,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		22924429778FAA61C5115D2D = {isa = PBXGroup; children = (A18C73A0B73D39BB851DDBB8,85CDA3D934DD08ED2C555124,FAE7ECF60759FE2605B1A602,3F20397C378B1A01D816C90F,BEBC7F9083267C02D0FC7573,FD4B6DE2FE6A39A2C6860765,27B7A2D082700CA81F51693B,A670C32FC6FCE25EE1DFCF0E); path = BLEInsight; sourceTree = "<group>"; };
-		A670C32FC6FCE25EE1DFCF0E /* Products */ = {isa = PBXGroup; children = (8910D9CBF108253CC9130BD3 /* BLEInsight.app */,); name = Products; sourceTree = "<group>"; };
-/* End PBXGroup section */
-/* Begin PBXNativeTarget section */
-		5BEC0D6CF49EDBFE330E29B5 /* BLEInsight */ = {isa = PBXNativeTarget; buildConfigurationList = A8C0BDFCEF7C424E57A07DA9; buildPhases = (8CC777341F309A31301CED22,2A8E9D46AAC34ED7792FD948,66697CF2F0A8F407A9CDE4FC); buildRules = (); dependencies = (); name = BLEInsight; productName = BLEInsight; productReference = 8910D9CBF108253CC9130BD3; productType = "com.apple.product-type.application"; };
-/* End PBXNativeTarget section */
-/* Begin PBXProject section */
-		467F3959062AF2C677579552 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1640; LastUpgradeCheck = 1640; TargetAttributes = {5BEC0D6CF49EDBFE330E29B5 = {CreatedOnToolsVersion = 16.4;};};}; buildConfigurationList = BAE9E2E8D4E208C8482CFD19; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 22924429778FAA61C5115D2D; productRefGroup = A670C32FC6FCE25EE1DFCF0E; projectDirPath = ""; projectRoot = ""; targets = (5BEC0D6CF49EDBFE330E29B5); };
-/* End PBXProject section */
-/* Begin PBXResourcesBuildPhase section */
-		66697CF2F0A8F407A9CDE4FC /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
-				48EC75934F4432F3E9092CEA /* Assets.xcassets in Resources */,
-				E95B6FE5B7CC2B4572EB18E2 /* Preview Assets.xcassets in Resources */,
-			); runOnlyForDeploymentPostprocessing = 0; };
-/* End PBXResourcesBuildPhase section */
-/* Begin PBXSourcesBuildPhase section */
-		8CC777341F309A31301CED22 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
-				3CBA8D20EB37C2CC63102009 /* BLEInsightApp.swift in Sources */,
-				1F32E8704E0FA2ECE0E34FCB /* BleDevice.swift in Sources */,
-				A29A97DE9300090AA71DEBD6 /* BluetoothPowerState.swift in Sources */,
-				15FDD150E89D2C2CF155F984 /* BleScanning.swift in Sources */,
-				554696E473F2A0FA014BAA54 /* CoreBluetoothScanner.swift in Sources */,
-				28B0E537618792FDB79AE7CF /* ScannerViewModel.swift in Sources */,
-				68AA0990BE81B332101EF424 /* ScannerScreen.swift in Sources */,
-				F918B4F51A01BB41184CCD01 /* DeviceCard.swift in Sources */,
-				200677794AA9BFD024E885CF /* BLEInsightTheme.swift in Sources */,
-			); runOnlyForDeploymentPostprocessing = 0; };
-/* End PBXSourcesBuildPhase section */
-/* Begin XCBuildConfiguration section */
-		753249C70B13ED219BD8095E /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 6.0;
-				DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; ONLY_ACTIVE_ARCH = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			}; name = Debug; };
-		EEFCFF7921E954153F5BEF94 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 6.0;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES;
-			}; name = Release; };
-		2532D4A4A37AC8C9823848C9 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = BLEInsight/Info.plist;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.harold.bleinsight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			}; name = Debug; };
-		907EE9B6697D3085756D2829 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = BLEInsight/Info.plist;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.harold.bleinsight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			}; name = Release; };
-/* End XCBuildConfiguration section */
-/* Begin XCConfigurationList section */
-		BAE9E2E8D4E208C8482CFD19 = {isa = XCConfigurationList; buildConfigurations = (753249C70B13ED219BD8095E,EEFCFF7921E954153F5BEF94); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		A8C0BDFCEF7C424E57A07DA9 = {isa = XCConfigurationList; buildConfigurations = (2532D4A4A37AC8C9823848C9,907EE9B6697D3085756D2829); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-/* End XCConfigurationList section */
-	};
-	rootObject = 467F3959062AF2C677579552;
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 77;
+ objects = {
+  P1 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2600; LastUpgradeCheck = 2600; TargetAttributes = { T2 = {CreatedOnToolsVersion = 26.0;}; T3 = {CreatedOnToolsVersion = 26.0;}; };}; buildConfigurationList = P2; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = P3; productRefGroup = P4; projectDirPath = ""; projectRoot = ""; targets = (T1, T2, T3);};
+  P3 = {isa = PBXGroup; children = (G1, G2, G3, P4); sourceTree = "<group>";};
+  P4 = {isa = PBXGroup; children = (R1, R2, R3); name = Products; sourceTree = "<group>";};
+  G1 = {isa = PBXFileSystemSynchronizedRootGroup; path = BLEInsightPhone; sourceTree = "<group>";};
+  G2 = {isa = PBXFileSystemSynchronizedRootGroup; path = BLEInsightWatchApp; sourceTree = "<group>";};
+  G3 = {isa = PBXFileSystemSynchronizedRootGroup; path = BLEInsightWatchExtension; sourceTree = "<group>";};
+  R1 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEInsightPhone.app; sourceTree = BUILT_PRODUCTS_DIR;};
+  R2 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEInsightWatch.app; sourceTree = BUILT_PRODUCTS_DIR;};
+  R3 = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BLEInsightWatchExtension.appex; sourceTree = BUILT_PRODUCTS_DIR;};
+  BF1 = {isa = PBXBuildFile; fileRef = R3; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, );};};
+  BF2 = {isa = PBXBuildFile; fileRef = R2; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, );};};
+  T1 = {isa = PBXNativeTarget; buildConfigurationList = C1; buildPhases = (S1, F1, B1, E1); buildRules = (); dependencies = (TD1); fileSystemSynchronizedGroups = (G1); name = BLEInsightPhone; packageProductDependencies = (); productName = BLEInsightPhone; productReference = R1; productType = "com.apple.product-type.application";};
+  T2 = {isa = PBXNativeTarget; buildConfigurationList = C2; buildPhases = (S2, F2, B2, E2); buildRules = (); dependencies = (TD2); fileSystemSynchronizedGroups = (G2); name = BLEInsightWatch; packageProductDependencies = (); productName = BLEInsightWatch; productReference = R2; productType = "com.apple.product-type.application.watchapp2";};
+  T3 = {isa = PBXNativeTarget; buildConfigurationList = C3; buildPhases = (S3, F3, B3); buildRules = (); dependencies = (); fileSystemSynchronizedGroups = (G3); name = BLEInsightWatchExtension; packageProductDependencies = (); productName = BLEInsightWatchExtension; productReference = R3; productType = "com.apple.product-type.watchkit2-extension";};
+  S1 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  F1 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  B1 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  S2 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  F2 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  B2 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  E1 = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = "$(CONTENTS_FOLDER_PATH)/Watch"; dstSubfolderSpec = 16; files = (BF2); name = "Embed Watch Content"; runOnlyForDeploymentPostprocessing = 0;};
+  E2 = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (BF1); name = "Embed Watch Extensions"; runOnlyForDeploymentPostprocessing = 0;};
+  S3 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  F3 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  B3 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  CP1 = {isa = PBXContainerItemProxy; containerPortal = P1; proxyType = 1; remoteGlobalIDString = T2; remoteInfo = BLEInsightWatch;};
+  TD1 = {isa = PBXTargetDependency; target = T2; targetProxy = CP1;};
+  CP2 = {isa = PBXContainerItemProxy; containerPortal = P1; proxyType = 1; remoteGlobalIDString = T3; remoteInfo = BLEInsightWatchExtension;};
+  TD2 = {isa = PBXTargetDependency; target = T3; targetProxy = CP2;};
+  P2 = {isa = XCConfigurationList; buildConfigurations = (PD, PR); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  C1 = {isa = XCConfigurationList; buildConfigurations = (D1, RR1); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  C2 = {isa = XCConfigurationList; buildConfigurations = (D2, RR2); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  C3 = {isa = XCConfigurationList; buildConfigurations = (D3, RR3); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  PD = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0;}; name = Debug;};
+  PR = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0;}; name = Release;};
+  D1 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 4; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "BLE Insight"; INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BLE Insight uses Bluetooth to discover and inspect nearby Bluetooth Low Energy devices."; INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "BLE Insight uses Bluetooth to discover nearby devices."; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MARKETING_VERSION = 1.4; PRODUCT_BUNDLE_IDENTIFIER = com.haroldopaulino.BLEInsight; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug;};
+  RR1 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 4; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "BLE Insight"; INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BLE Insight uses Bluetooth to discover and inspect nearby Bluetooth Low Energy devices."; INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "BLE Insight uses Bluetooth to discover nearby devices."; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MARKETING_VERSION = 1.4; PRODUCT_BUNDLE_IDENTIFIER = com.haroldopaulino.BLEInsight; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release;};
+  D2 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 4; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "BLE Insight"; INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.haroldopaulino.BLEInsight; INFOPLIST_KEY_WKWatchKitApp = YES; MARKETING_VERSION = 1.4; PRODUCT_BUNDLE_IDENTIFIER = com.haroldopaulino.BLEInsight.watchkitapp; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = watchos; SKIP_INSTALL = NO; SUPPORTED_PLATFORMS = "watchos watchsimulator"; TARGETED_DEVICE_FAMILY = 4; WATCHOS_DEPLOYMENT_TARGET = 11.0;}; name = Debug;};
+  RR2 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 4; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "BLE Insight"; INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.haroldopaulino.BLEInsight; INFOPLIST_KEY_WKWatchKitApp = YES; MARKETING_VERSION = 1.4; PRODUCT_BUNDLE_IDENTIFIER = com.haroldopaulino.BLEInsight.watchkitapp; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = watchos; SKIP_INSTALL = NO; SUPPORTED_PLATFORMS = "watchos watchsimulator"; TARGETED_DEVICE_FAMILY = 4; WATCHOS_DEPLOYMENT_TARGET = 11.0;}; name = Release;};
+  D3 = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 4; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Config/BLEInsightWatchExtension-Info.plist; MARKETING_VERSION = 1.4; PRODUCT_BUNDLE_IDENTIFIER = com.haroldopaulino.BLEInsight.watchkitapp.watchkitextension; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = watchos; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = "watchos watchsimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 4; WATCHOS_DEPLOYMENT_TARGET = 11.0;}; name = Debug;};
+  RR3 = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 4; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Config/BLEInsightWatchExtension-Info.plist; MARKETING_VERSION = 1.4; PRODUCT_BUNDLE_IDENTIFIER = com.haroldopaulino.BLEInsight.watchkitapp.watchkitextension; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = watchos; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = "watchos watchsimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 4; WATCHOS_DEPLOYMENT_TARGET = 11.0;}; name = Release;};
+ };
+ rootObject = P1;
 }
